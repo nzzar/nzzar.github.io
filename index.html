@@ -32,7 +32,7 @@
         </ul>
 
         <div class="top-btn">
-            <a href="#" class="h-btn">Resume</a>
+            <a href="https://drive.google.com/file/d/1SCu-IrfUTsmUt75GO8VYVuMzszVTXhFP/view?usp=drive_link" class="h-btn" target="_blank">Resume</a>
         </div>
     </header>
 
@@ -40,12 +40,12 @@
     <section class="home" id="home">
         <div class="main-content">
             <h4>Hello!</h4>
-            <h1>I'm <span>Nizar Zulmi</span></h1>
-            <h5>Fullstack Developer</h5>
+            <h1>I'm <span class="multiText"></span></h1>
+            <h5><span class="multi"></span></h5>
             <div class="social">
-                <a href="#"><i class="ri-facebook-fill"></i></a>
-                <a href="#"><i class="ri-instagram-line"></i></a>
-                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://www.facebook.com/niizar.zulmii.1?locale=id_ID" target="_blank"><i class="ri-facebook-fill"></i></a>
+                <a href="https://www.instagram.com/n.zzaarr/" target="_blank"><i class="ri-instagram-line"></i></a>
+                <a href="https://www.linkedin.com/in/nizar-zulmi-831125292/" target="_blank"><i class="ri-linkedin-fill"></i></a>
             </div>
 
             <div class="main-btn">
@@ -56,5 +56,42 @@
     </section>
 
     <!--about-->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <div class="about-img">
+            <img src="img/about.png" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Fullstack Developer</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis quas voluptates iusto nisi asperiores odio pariatur perspiciatis expedita, temporibus atque accusantium. Repellat velit expedita accusamus animi, repellendus commodi explicabo. Iusto?</p>
+
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Js-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typeEffect = new Typed(".multiText",{
+            strings: ["Nizar Zulmi"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500,
+        });
+
+        var typeEffect = new Typed(".multi",{
+            strings: ["Fullstack Developer", "Design"],
+            loop: true,
+            typeSpeed: 200,
+            backSpeed: 80,
+            backDelay: 1500,
+        });
+    </script>
 </body>
 </html>
