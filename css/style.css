@@ -465,14 +465,16 @@ section{
         justify-content: normal;
         gap: 20px;
     }
-    header .sticky{
+    header.sticky{
         padding: 14px 8%;
     }
     .main-content h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .home{
         background-position: top left;
+        display: block;
+        padding-top: 15rem;
     }
 
     section{
